@@ -1,3 +1,9 @@
+# Modified 
+i change some file associated with cuda/cudnn for higher version of CUDA 9.0+ and CUDNN 7.0+.
+i suggest to use 'make -j12' rather than cmake to build.
+
+i put original profile ,below.
+
 # Caffe_train
 
 Our modified caffe for training multi-person pose estimator. The original caffe version is in July 2016. This repository at least runs on Ubuntu 14.04, OpenCV 2.4.10, CUDA 7.5/8.0, and CUDNN 5. 
